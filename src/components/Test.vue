@@ -1,11 +1,16 @@
 <template>
   <div class=test>
-    <h1>{{label}}</h1>
+    <h1>
+      <span v-text="label">Rider List</span>
+    </h1>
     <ul>
       <li :key="rider.id" v-for="rider in riders">
         {{ rider.name }} - {{rider.class}}
       </li>
     </ul>
+    <div>
+      <input type="text" v-model="label" />
+    </div>
   </div>
 </template>
 
@@ -18,7 +23,8 @@ export default {
       riders: [
         {id:1, name: "Kuuga", class: "SS"},
         {id:2, name: "Decade", class: "S"},
-        {id:3, name: "Hibiki", class: "B"}
+        {id:3, name: "Hibiki", class: "B"},
+        {id:4, name: "Kabuto", class: "A"}
       ]
     }
   }
