@@ -18,9 +18,9 @@ export default {
   components: { 'item-list': ItemList },
   data () {
     return {
-      label: "Rider List",
+      label: 'Rider List',
       testMe: () => {
-        console.log('test');
+        console.log('test')
       }
     }
   }

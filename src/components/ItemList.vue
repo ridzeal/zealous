@@ -12,10 +12,10 @@ export default {
   data () {
     return {
       riders: [
-        {id:1, name: "Kuuga", class: "SS"},
-        {id:2, name: "Decade", class: "S"},
-        {id:3, name: "Hibiki", class: "B"},
-        {id:4, name: "Kabuto", class: "A"}
+        {id: 1, name: 'Kuuga', class: 'SS'},
+        {id: 2, name: 'Decade', class: 'S'},
+        {id: 3, name: 'Hibiki', class: 'B'},
+        {id: 4, name: 'Kabuto', class: 'A'}
       ]
     }
   }
